@@ -45,3 +45,17 @@ git log -p -2
 
 Exibir resumo do histórico (hash completa, autor, data, comentário e qtde de alterações (+/-))
 git log --stat
+
+Enviar arquivos/diretórios para o repositório remoto
+O primeiro push de um repositório deve conter o nome do repositório remoto e o branch.
+
+git push -u origin master
+Os demais pushes não precisam dessa informação
+
+git push
+Atualizar repositório local de acordo com o repositório remoto
+Atualizar os arquivos no branch atual
+git pull
+
+Clonar um repositório remoto já existente
+git clone git@github.com:leocomelli/curso-git.git
